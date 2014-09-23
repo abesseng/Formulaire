@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Formulaire</title>
+    </head>
+<body>
+   <div class="table">
+       <form method="post"   action="?p=inscription">
+  
+                <label class="col5" for="pseudo">Pseudo:</label><input type="text" name="pseudo" id="pseudo"/><br/>
+                <label class="col1" for="mail">Adresse e-mail:</label><input type="email" name="email"/><br/>
+                <label class="col1" for="Mot de passe">Mot de passe:</label><input type="password" name="pass_user" /><br/>
+       	        <p class="texte">Pour une sécurité optimale de votre mot de passe, nous vous conseillons 8 caractères minimum composés d'au moins une minuscule, une majuscule, un chiffre (0-9) et une ponctuation.</p>
+
+                <label class="col1" for="confirmation">Confirmer le mot de passe:</label><input type="password" name="pass_user2"/><br/>
+                <p class="center"><input type="radio" name="radio" value="accepte" id="accepte" class="col4" />J'accepte <a href="?p=cgu" target="_blank"><em>les conditions d'utilisations</em></a></p>
+                <p class="envoyer"><input type="submit" value="M'inscrire" name="submit" /></p>
+  
+           </form>
+       </div>
+    </body>
+</html>
